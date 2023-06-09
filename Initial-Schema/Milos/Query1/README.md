@@ -1,4 +1,4 @@
-# Upit 1 - Za svaku ekipu sračunati broj utakmica koje su pobedili "za dlaku" (1, 2 ili 3 razlike) po sezoni
+# Upit 1 - Za svaku ekipu (u svakoj sezoni) sračunati broj utakmica koje su pobedili sa manje od 3 razlike
 
 ## Izvršavanje upita
 
