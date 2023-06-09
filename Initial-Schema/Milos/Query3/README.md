@@ -72,6 +72,6 @@
   
 ## Zaključak 
 
-**Ukupno vreme trajanja upita: ** 123 sekunde 
+**Ukupno vreme trajanja upita:** 123 sekunde 
 
-**Broj ulaznih dokumenata: ** 13 miliona
+**Broj ulaznih dokumenata:** 13 miliona
