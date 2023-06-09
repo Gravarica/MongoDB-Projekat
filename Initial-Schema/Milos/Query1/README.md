@@ -167,3 +167,11 @@ db.getCollection("play_by_play").aggregate(
 
 ## Statistika upita 
 ![Upit2-PreOptimizacije-Statistics](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/885617d2-63d1-4312-b29e-c347badaa5ba)
+
+## Zaključak 
+
+**Ukupno vreme trajanja upita:** 364 sekunde
+**Broj ulaznih dokumenata: ** 13 miliona
+
+Prilikom analiziranja explain naredbe, uočava se da je najviše vremena utrošeno na operacije sortiranja, što iziskuje potrebom za kreiranjem indeksa nad odgovarajućim poljima, kao i na $lookup fazu pajplajna što nalaže da bi bilo dobro iskoristiti šablon proširene reference kako bi se ovaj upit optimizovao  
+
