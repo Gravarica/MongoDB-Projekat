@@ -50,3 +50,7 @@ U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja:
 4. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni
 5. Za svaku ekipu (i svaku sezonu) odrediti prosečan broj šutnutih i pogođenih trojki, kao i ukupno za svaku sezonu odrediti prosečan broj šutnutih i pogođenih trojki po utakmici 
 
+### Implementacija
+
+Implementacija datih upita se nalazi u direktorijumu
+
