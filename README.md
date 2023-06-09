@@ -36,6 +36,17 @@ bila je da se upiti izvršavaju nedopustvo dugo.
 Takođe, pošto su podaci vezani za opise utakmica, poput sudija, ili posećenosti, bili poprilično rasprostranjeni po raznim kolekcijama (kao npr. _game_info_, _officials_ i _teams_) javila se česta potreba 
 i za spajanjem tih kolekcija kako bi se izvukle određene statistike i informacije o samim utakmicama. Sve ovo je doprinelo da se stvori lanac uvezivanja dokumenata, koji se realizovao ulančavanjem _**$lookup**_ i _**$unwind**_ stadijama i performanse su bile znatno oslabljene.
 
-**Restruktuiranje sheme**
+### Inicijalna shema 
+Inicijalna shema baze podataka nalazi se u direktorijumu _Initial-Shema_, gde je u datoteci README.md detaljno pojašnjeno koje se kolekcije nalaze u bazi i kakav je njihov međusobni odnos. 
 
+### Restruktuirana shema 
+Restruktuirana shema baze podataka nalazi se u direktorijumu _Restructured-Shema_
+
+### Upiti 
+U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja: 
+1. Za svaku ekipu (u svakoj sezoni) odrediti broj utakmica koje su pobedili sa manje od 3 razlike  
+2. Odrediti top 10 sudija po broju utakmica koje su sudili Lebronu Džejmsu. Izlistati za svakog sudiju te utakmice.
+3. Pronaći top 10 igrača po broju utakmica na kojima su postigli barem 40 poena. Izlistati za svakog igrača te utakmice
+4. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni
+5. Za svaku ekipu (i svaku sezonu) odrediti prosečan broj šutnutih i pogođenih trojki, kao i ukupno za svaku sezonu odrediti prosečan broj šutnutih i pogođenih trojki po utakmici 
 
