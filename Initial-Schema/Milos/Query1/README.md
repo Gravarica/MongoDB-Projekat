@@ -171,7 +171,8 @@ db.getCollection("play_by_play").aggregate(
 ## Zaključak 
 
 **Ukupno vreme trajanja upita:** 364 sekunde
-**Broj ulaznih dokumenata: ** 13 miliona
+
+**Broj ulaznih dokumenata:** 13 miliona
 
 Prilikom analiziranja explain naredbe, uočava se da je najviše vremena utrošeno na operacije sortiranja, što iziskuje potrebom za kreiranjem indeksa nad odgovarajućim poljima, kao i na $lookup fazu pajplajna što nalaže da bi bilo dobro iskoristiti šablon proširene reference kako bi se ovaj upit optimizovao  
 
