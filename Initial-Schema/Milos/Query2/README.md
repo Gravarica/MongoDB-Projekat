@@ -91,3 +91,4 @@ db.getCollection("play_by_play").aggregate(
 
 ## Statistika upita 
 
+![Upit4-PreOptimizacije-Statistika](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/e48045af-c6ed-43e6-ae95-afd17525fc73)
