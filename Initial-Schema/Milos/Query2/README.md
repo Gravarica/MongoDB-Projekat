@@ -92,3 +92,11 @@ db.getCollection("play_by_play").aggregate(
 ## Statistika upita 
 
 ![Upit4-PreOptimizacije-Statistika](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/e48045af-c6ed-43e6-ae95-afd17525fc73)
+
+## Zaključak
+
+**Ukupno vreme trajanja upita: ** 209 sekundi 
+
+**Broj ulaznih dokumenata: ** 13 miliona
+
+Ponovo se može uvideti da $lookup faza oduzima najviše vremena stoga se treba razsmisliti o šablonu proširene reference
