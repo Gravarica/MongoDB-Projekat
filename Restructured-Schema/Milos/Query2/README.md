@@ -28,42 +28,34 @@ db.getCollection("play_by_play").aggregate(
         }, 
         {
             "$lookup" : {
-                "from" : "officials",
+                "from" : "game_details",
                 "localField" : "_id",
                 "foreignField" : "game_id",
-                "as" : "officials_doc"
+                "as" : "game_details"
             }
         }, 
         {
             "$unwind" : {
-                "path" : "$officials_doc"
+                "path" : "$game_details"
             }
         }, 
         {
-            "$lookup" : {
-                "from" : "game",
-                "localField" : "_id",
-                "foreignField" : "game_id",
-                "as" : "game_info"
+            "$unwind" : {
+                "path" : "$game_details.officials"
             }
         }, 
         {
             "$project" : {
                 "game_id" : NumberInt(1),
-                "first_name" : "$officials_doc.first_name",
-                "last_name" : "$officials_doc.last_name",
-                "game_info" : {
+                "first_name" : "$game_details.officials.first_name",
+                "last_name" : "$game_details.officials.last_name",
+                "game_details" : {
                     "game_date" : NumberInt(1),
-                    "team_name_home" : NumberInt(1),
-                    "pts_home" : NumberInt(1),
-                    "team_name_away" : NumberInt(1),
-                    "pts_away" : NumberInt(1)
+                    "home_team_name" : NumberInt(1),
+                    "home_team_points" : NumberInt(1),
+                    "away_team_points" : NumberInt(1),
+                    "away_team_name" : NumberInt(1)
                 }
-            }
-        }, 
-        {
-            "$unwind" : {
-                "path" : "$game_info"
             }
         }, 
         {
@@ -76,7 +68,7 @@ db.getCollection("play_by_play").aggregate(
                     "$sum" : NumberInt(1)
                 },
                 "games" : {
-                    "$push" : "$game_info"
+                    "$push" : "$game_details"
                 }
             }
         }, 
@@ -87,7 +79,7 @@ db.getCollection("play_by_play").aggregate(
         }
     ], 
     {
-        "allowDiskUse" : true,
+        "allowDiskUse" : true
     }
 );
 
