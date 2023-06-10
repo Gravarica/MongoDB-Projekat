@@ -45,15 +45,15 @@ Restruktuirana shema baze podataka nalazi se u direktorijumu [_Restructured-Shem
 ### Upiti 
 U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja: 
 1. Za svaku ekipu (u svakoj sezoni) odrediti broj utakmica koje su pobedili košem za pobedu 
-* [Initial](Initial-Shema/Milos/Query1/README.md) | [Optimized](Restructured-Shema/Milos/Query1/README.md)
+* [Initial](MongoDB-Projekat/Initial-Shema/Milos/Query1/README.md) | [Optimized](MongoDB-Projekat/Restructured-Shema/Milos/Query1/README.md)
 3. Odrediti top 10 sudija po broju utakmica koje su sudili Lebronu Džejmsu. Izlistati za svakog sudiju te utakmice.
-* [Initial](Initial-Shema/Milos/Query2/README.md) | [Optimized](Restructured-Shema/Milos/Query2/README.md)
+* [Initial](MongoDB-Projekat/Initial-Shema/Milos/Query2/README.md) | [Optimized](MongoDB-Projekat/Restructured-Shema/Milos/Query2/README.md)
 5. Pronaći top 10 igrača po broju utakmica na kojima su postigli barem 40 poena. Izlistati za svakog igrača te utakmice
-* [Initial](Initial-Shema/Milos/Query3/README.md) | [Optimized](Restructured-Shema/Milos/Query3/README.md)
+* [Initial](MongoDB-Projekat/Initial-Shema/Milos/Query3/README.md) | [Optimized](MongoDB-Projekat/Restructured-Shema/Milos/Query3/README.md)
 7. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni
-* [Initial](Initial-Shema/Milos/Query4/README.md) | [Optimized](Restructured-Shema/Milos/Query4/README.md)
+* [Initial](MongoDB-Projekat/Initial-Shema/Milos/Query4/README.md) | [Optimized](MongoDB-Projekat/Restructured-Shema/Milos/Query4/README.md)
 9. Za svaku ekipu (i svaku sezonu) odrediti prosečan broj šutnutih i pogođenih trojki, kao i ukupno za svaku sezonu odrediti prosečan broj šutnutih i pogođenih trojki po utakmici
-* [Initial](Initial-Shema/Milos/Query5/README.md) | [Optimized](Restructured-Shema/Milos/Query5/README.md)
+* [Initial](MongoDB-Projekat/Initial-Shema/Milos/Query5/README.md) | [Optimized](MongoDB-Projekat/Restructured-Shema/Milos/Query5/README.md)
 
 ### Implementacija
 
