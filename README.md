@@ -37,18 +37,23 @@ Takođe, pošto su podaci vezani za opise utakmica, poput sudija, ili posećenos
 i za spajanjem tih kolekcija kako bi se izvukle određene statistike i informacije o samim utakmicama. Sve ovo je doprinelo da se stvori lanac uvezivanja dokumenata, koji se realizovao ulančavanjem _**$lookup**_ i _**$unwind**_ stadijama i performanse su bile znatno oslabljene.
 
 ### Inicijalna shema 
-Inicijalna shema baze podataka nalazi se u direktorijumu _Initial-Shema_, gde je u datoteci README.md detaljno pojašnjeno koje se kolekcije nalaze u bazi i kakav je njihov međusobni odnos. 
+Inicijalna shema baze podataka nalazi se u direktorijumu [_Initial-Shema](Initial-Shema/README.md)_, gde je detaljno pojašnjeno koje se kolekcije nalaze u bazi i kakav je njihov međusobni odnos. 
 
 ### Restruktuirana shema 
-Restruktuirana shema baze podataka nalazi se u direktorijumu _Restructured-Shema_
+Restruktuirana shema baze podataka nalazi se u direktorijumu [_Restructured-Shema_](Restructured-Schema/README.md)
 
 ### Upiti 
 U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja: 
-1. Za svaku ekipu (u svakoj sezoni) odrediti broj utakmica koje su pobedili košem za pobedu  
-2. Odrediti top 10 sudija po broju utakmica koje su sudili Lebronu Džejmsu. Izlistati za svakog sudiju te utakmice.
-3. Pronaći top 10 igrača po broju utakmica na kojima su postigli barem 40 poena. Izlistati za svakog igrača te utakmice
-4. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni
-5. Za svaku ekipu (i svaku sezonu) odrediti prosečan broj šutnutih i pogođenih trojki, kao i ukupno za svaku sezonu odrediti prosečan broj šutnutih i pogođenih trojki po utakmici 
+1. Za svaku ekipu (u svakoj sezoni) odrediti broj utakmica koje su pobedili košem za pobedu 
+* [Initial](Initial-Shema/Milos/Query1/README.md) | [Optimized](Restructured-Shema/Milos/Query1/README.md)
+3. Odrediti top 10 sudija po broju utakmica koje su sudili Lebronu Džejmsu. Izlistati za svakog sudiju te utakmice.
+* [Initial](Initial-Shema/Milos/Query2/README.md) | [Optimized](Restructured-Shema/Milos/Query2/README.md)
+5. Pronaći top 10 igrača po broju utakmica na kojima su postigli barem 40 poena. Izlistati za svakog igrača te utakmice
+* [Initial](Initial-Shema/Milos/Query3/README.md) | [Optimized](Restructured-Shema/Milos/Query3/README.md)
+7. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni
+* [Initial](Initial-Shema/Milos/Query4/README.md) | [Optimized](Restructured-Shema/Milos/Query4/README.md)
+9. Za svaku ekipu (i svaku sezonu) odrediti prosečan broj šutnutih i pogođenih trojki, kao i ukupno za svaku sezonu odrediti prosečan broj šutnutih i pogođenih trojki po utakmici
+* [Initial](Initial-Shema/Milos/Query5/README.md) | [Optimized](Restructured-Shema/Milos/Query5/README.md)
 
 ### Implementacija
 
