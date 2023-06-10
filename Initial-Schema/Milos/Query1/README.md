@@ -1,4 +1,4 @@
-# Upit 1 - Za svaku ekipu (u svakoj sezoni) sračunati broj utakmica koje su pobedili sa manje od 3 razlike
+# Upit 1 - Za svaku ekipu (u svakoj sezoni) sračunati broj koševa za pobedu
 
 ## Izvršavanje upita
 
