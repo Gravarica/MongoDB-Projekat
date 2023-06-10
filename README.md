@@ -44,7 +44,7 @@ Restruktuirana shema baze podataka nalazi se u direktorijumu _Restructured-Shema
 
 ### Upiti 
 U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja: 
-1. Za svaku ekipu (u svakoj sezoni) odrediti broj utakmica koje su pobedili sa manje od 3 razlike  
+1. Za svaku ekipu (u svakoj sezoni) odrediti broj utakmica koje su pobedili košem za pobedu  
 2. Odrediti top 10 sudija po broju utakmica koje su sudili Lebronu Džejmsu. Izlistati za svakog sudiju te utakmice.
 3. Pronaći top 10 igrača po broju utakmica na kojima su postigli barem 40 poena. Izlistati za svakog igrača te utakmice
 4. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni
