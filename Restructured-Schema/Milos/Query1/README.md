@@ -14,54 +14,10 @@ db.getCollection("play_by_play").aggregate(
         {
             "$match" : {
                 "scoremargin" : {
-                    "$ne" : "TIE"
+                    "$ne" : 0
                 }
             }
-        }, 
-        {
-            "$addFields" : {
-                "timeInSeconds" : {
-                    "$let" : {
-                        "vars" : {
-                            "splitTime" : {
-                                "$split" : [
-                                    "$pcstimestring",
-                                    ":"
-                                ]
-                            }
-                        },
-                        "in" : {
-                            "$add" : [
-                                {
-                                    "$multiply" : [
-                                        {
-                                            "$toInt" : {
-                                                "$arrayElemAt" : [
-                                                    "$$splitTime",
-                                                    NumberInt(0)
-                                                ]
-                                            }
-                                        },
-                                        NumberInt(60)
-                                    ]
-                                },
-                                {
-                                    "$toInt" : {
-                                        "$arrayElemAt" : [
-                                            "$$splitTime",
-                                            NumberInt(1)
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "scoremargin" : {
-                    "$toInt" : "$scoremargin"
-                }
-            }
-        }, 
+        },
         {
             "$sort" : {
                 "game_id" : NumberInt(1),
@@ -118,14 +74,6 @@ db.getCollection("play_by_play").aggregate(
             }
         }, 
         {
-            "$lookup" : {
-                "from" : "game",
-                "localField" : "_id",
-                "foreignField" : "game_id",
-                "as" : "game_details"
-            }
-        }, 
-        {
             "$project" : {
                 "winner_team" : {
                     "$cond" : {
@@ -135,15 +83,15 @@ db.getCollection("play_by_play").aggregate(
                                 "home"
                             ]
                         },
-                        "then" : "$game_details.team_name_home",
-                        "else" : "$game_details.team_name_away"
+                        "then" : "$team_name_home",
+                        "else" : "$team_name_away"
                     }
                 },
                 "year" : {
                     "$substr" : [
                         {
                             "$arrayElemAt" : [
-                                "$game_details.game_date",
+                                "$game_date",
                                 NumberInt(0)
                             ]
                         },
