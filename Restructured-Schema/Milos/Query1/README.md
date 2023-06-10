@@ -4,7 +4,7 @@
 
 S obzirom na činjenicu da je najviše vremena bilo utrošeno na sortiranje podataka po četvrtini, vremenu i utakmici, uveden je kompozitni indeks pomoću kojeg se proces sortiranja ubrzava.
 Takođe, pošto je bilo neophodno spajanje sa kolekcijom **_game_** što je zahtevalo poprilično vreme za izvršavanje, uvođenjem kolekcije **_game_details_** u kojoj se čuvaju samo neophodni podaci za utakmicu, 
-upit se ubrzao na 22 sekunde. Ukoliko bismo iskoristili i šablon proširene reference kako bi se kolekcija proširila imenom tima, dodatno će se ubrzati na 8 sekundi.  
+upit se ubrzao na 22 sekunde. Ukoliko bismo iskoristili i šablon proširene reference kako bi se kolekcija proširila imenom tima, dodatno će se ubrzati na 10.2 sekunde.  
 
 ## Izvršavanje upita
 
@@ -176,7 +176,7 @@ db.getCollection("play_by_play").aggregate(
 
 ## Zaključak 
 
-**Ukupno vreme trajanja upita:** 8 sekundi
+**Ukupno vreme trajanja upita:** 10.2 sekunde
 
 **Broj ulaznih dokumenata:** 13 miliona
 
