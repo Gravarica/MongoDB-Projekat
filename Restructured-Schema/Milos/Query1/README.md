@@ -121,7 +121,7 @@ db.getCollection("play_by_play").aggregate(
 ```
 
 ## Statistika upita 
-![image](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/1e872a39-cca2-4aaf-97fb-f81336680878)
+![image](../assets/Upit1-NakonOptimizacije-Stats.jpg)
 
 ## Zaključak 
 
