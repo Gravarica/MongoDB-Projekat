@@ -67,7 +67,7 @@
 ```
 ## Statistika upita 
   
-![Upit3-PreOptimizacije-Statistika](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/16ca91cb-29ba-4248-88d1-753b43dcff7c)
+![Upit3-PreOptimizacije-Statistika](../assets/Upit3-PreOptimizacije-Statistika.jpg)
 
   
 ## Zaključak 
