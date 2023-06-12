@@ -2,6 +2,8 @@
 
 ## Proces optimizacije 
 
+S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 1 ili 3, dodat je index na kolonu eventmsgtype čime je upit ubrzan na 5.5 sekundi 
+
 ## Izvršavanje upita 
 ```
   db.getCollection("play_by_play").aggregate(
