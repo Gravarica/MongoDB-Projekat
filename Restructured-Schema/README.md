@@ -18,7 +18,7 @@ restruktuirati shemu baze podataka kako bi se poboljšale performanse.
 * Kreirana je kompozitna indeksna struktura nad kolekcijom **_play_by_play_**
   - S obzirom na činjenicu da je neophodno bilo sortirati ovu kolekciju radi prikupljanja podataka o poslednjoj akciji na utakmici,a soritranje se vrši na osnovu četvrtine i vremenskog perioda,
     kreirana je indeksna struktura nad poljima _game_id_, _period_ i _timestamp_ u opadajućem redosledu, jer nam je potrebno da pokupimo informaciju o poslednjoj akciji, koja će onda biti na vrhu kolekcije
-* Bitna napomena je takođe, da smo se odlučili da ne smeštamo podatke o rezultatima utakmica u _**play_by_play**_ kolekciju kako ne bismo narušili semantiku podataka 
+* Bitna napomena je takođe, da smo se odlučili da ne smeštamo podatke o rezultatima utakmica u _**play_by_play**_ kolekciju kako ne bismo narušili semantiku podataka, već, na blagi uštrp performansi, radimo $lookup, tek kada odradimo sve neophodno filtriranje podataka
 
 
 
