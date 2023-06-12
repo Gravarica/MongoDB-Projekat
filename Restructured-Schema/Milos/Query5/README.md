@@ -184,7 +184,7 @@ db.getCollection("game").aggregate(
 ```
 
 ## Statistika upita 
-![image](../assets/Upit5-PosleOptimizacije-Stats.jpg)
+![image](../assets/Upit5-NakonOptimizacije-Stats.jpg)
 
 
 ## Zaključak 
