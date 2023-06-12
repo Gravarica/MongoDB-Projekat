@@ -134,7 +134,7 @@ db.getCollection("game").aggregate(
 
 ## Statistika upita 
 
-![image](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/4cf7b176-40ee-45dc-a332-b4b0111143a3)
+![image](../assets/Query4-PosleOptimizacije-Stats.jpg)
 
 ## Zaključak 
 
