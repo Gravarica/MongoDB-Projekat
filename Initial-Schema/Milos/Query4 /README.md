@@ -141,7 +141,7 @@ db.getCollection("game_info").aggregate(
 
 ## Statistika upita 
 
-![Upit1-PreOptimizacije-Statistika](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/66c927de-c5c2-49ca-8c49-eebc501d763c)
+![Upit1-PreOptimizacije-Statistika](../assets/Upit44-PreOptimizacije-Statistika.jpg)
 
 ## Zaključak 
 
