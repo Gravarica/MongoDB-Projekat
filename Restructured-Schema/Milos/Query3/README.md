@@ -2,12 +2,28 @@
 
 ## Proces optimizacije 
 
-S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 1 ili 3, dodat je index na kolonu eventmsgtype čime je upit ubrzan na 5.5 sekundi 
+S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 1 ili 3, dodat je index na kolonu eventmsgtype čime je upit ubrzan na 4.8 sekundi 
 
 ## Izvršavanje upita 
 ```
   db.getCollection("play_by_play").aggregate(
     [
+        {
+            "$match" : {
+                "$or" : [
+                    {
+                        "eventmsgtype" : {
+                            "$eq" : NumberInt(1)
+                        }
+                    },
+                    {
+                        "eventmsgtype" : {
+                            "$eq" : NumberInt(3)
+                        }
+                    }
+                ]
+            }
+        },
         {
             "$match" : {
                 "$or" : [
@@ -76,7 +92,7 @@ S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 1
   
 ## Zaključak 
 
-**Ukupno vreme trajanja upita:** 10 sekundi 
+**Ukupno vreme trajanja upita:** 4.8 sekundi 
 
 **Broj ulaznih dokumenata:** 13 miliona
 
