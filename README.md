@@ -52,5 +52,5 @@ U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja:
 
 ### Implementacija
 
-Implementacija datih upita se nalazi u direktorijumu
+Implementacija datih upita se nalazi u direktorijumu [Restructure-Schema](Restructured-Schema)
 
