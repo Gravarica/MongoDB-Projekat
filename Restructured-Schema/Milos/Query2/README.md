@@ -89,6 +89,8 @@ db.getCollection("play_by_play").aggregate(
 
 ![Upit4-PosleOptimizacije-Stats](../assets/Upit2-PosleOptimizacije-Stats.jpg)
 
+![Upit4-Vrdnosti](../assets/Upit2-PosleOptimizacije-Values.jpg)
+
 ## Zaključak
 
 **Ukupno vreme trajanja upita: ** 9.3 sekunde 
