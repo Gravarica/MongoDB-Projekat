@@ -214,8 +214,8 @@ db.getCollection("Draft").aggregate(
 ```
 
 ## Statistika upita 
-![Upit1-PreOptimizacije-Statistics](../assets/q1.1.jpg)
-![Upit1-PreOptimizacije-Statistics](../assets/q1.2.jpg)
+![Upit1-PreOptimizacije-Statistics](../assets/q1.1.png)
+![Upit1-PreOptimizacije-Statistics](../assets/q1.2.png)
 
 ## Zaključak 
 
