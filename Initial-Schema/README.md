@@ -6,7 +6,7 @@ U ovoj sekciji biće pojašnjene kolekcije, atributi entiteta, kao i međusobne 
 
 ### Kolekcija _**GAME**_
 
-![Kolekcija_GAME](../assets/Kolekcija_GAME.jpg)
+![Kolekcija_GAME](assets/Kolekcija_GAME.jpg)
 
 Atributi (Polja) koja su od značaja za naše upite su: 
 * **fg3a** - broj pokušaja za 3 poena na utakmici 
@@ -18,7 +18,7 @@ Atributi (Polja) koja su od značaja za naše upite su:
 
 ### Kolekcija _**PLAY_BY_PLAY**_
 
-![Kolekcija_PLAY_BY_PLAY](../assets/Kolekcija_PLAY_BY_PLAY.jpg)
+![Kolekcija_PLAY_BY_PLAY](assets/Kolekcija_PLAY_BY_PLAY.jpg)
 
 Atributi (Polja) koja su od značaja za naše upite su: 
 * **playerN_id**: identifikaciona oznaka igrača koji učestvuje u akciji
@@ -30,7 +30,7 @@ Atributi (Polja) koja su od značaja za naše upite su:
 
 ### Kolekcija _**OFFICIALS**_
 
-![Kolekcija_OFFICIALS](../assets/Kolekcija_OFFICIALS.jpg)
+![Kolekcija_OFFICIALS](assets/Kolekcija_OFFICIALS.jpg)
 
 Atributi (Polja) koja su od značaja za naše upite su: 
 * **first_name, last_name:** ime i prezime sudije 
@@ -38,7 +38,7 @@ Atributi (Polja) koja su od značaja za naše upite su:
 
 ### Kolekcija _**TEAM**_
 
-![Kolekcija_TEAM](../assets/Kolekcija_TEAM.jpg)
+![Kolekcija_TEAM](assets/Kolekcija_TEAM.jpg)
 
 Atributi (Polja) koja su od značaja za naše upite su: 
 * **team_id:** identifikaciona oznaka tima 
@@ -46,7 +46,7 @@ Atributi (Polja) koja su od značaja za naše upite su:
 
 ### Kolekcija _**GAME_INFO**_
 
-![Kolekcija_GAME_INFO](../assets/Kolekcija_GAME_INFO.jpg)
+![Kolekcija_GAME_INFO](assets/Kolekcija_GAME_INFO.jpg)
 
 Atributi (Polja) koja su od značaja za naše upite su: 
 * **game_id:** polje koje referencira kolekciju **_game_**
@@ -55,7 +55,7 @@ Atributi (Polja) koja su od značaja za naše upite su:
 
 ### Kolekcija _**DRAFT**_
 
-![Kolekcija_DRAFT](../assets/Kolekcija_DRAFT.jpg)
+![Kolekcija_DRAFT](assets/Kolekcija_DRAFT.jpg)
 
 Atributi (Polja) koja su od značaja za naše upite su: 
 
@@ -67,7 +67,7 @@ Atributi (Polja) koja su od značaja za naše upite su:
 
 ## Referenciranje
 
-![Inicijalna_Sema_Relacije](../assets/Inicijalna_Sema_Relacije.jpg)
+![Inicijalna_Sema_Relacije](assets/Inicijalna_Sema_Relacije.jpg)
 
 Zbog referenciranja između kolekcija, dolazi se do zaključka da će često biti potrebno raditi **$lookup** i **$unwind** faze agregacionog pajplajna što će dovesti do degradacije performansi, 
 trebalo bi razmisliti o šablonu proširene reference
