@@ -87,7 +87,7 @@ S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 1
 ```
 ## Statistika upita 
   
-![image](https://github.com/Gravarica/MongoDB-Projekat/assets/93195018/7bf0e420-0356-4d49-80b8-14c2b00b724f)
+![image](../assets/Upit3-PosleOptimizacije-Stats.jpg)
 
   
 ## Zaključak 
