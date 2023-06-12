@@ -87,7 +87,7 @@ db.getCollection("play_by_play").aggregate(
 
 ## Statistika upita 
 
-![Upit4-PreOptimizacije-Statistika]((../assets/Upit2-PosleOptimizacije-Stats.jpg))
+![Upit4-PosleOptimizacije-Stats](../assets/Upit2-PosleOptimizacije-Stats.jpg)
 
 ## Zaključak
 
