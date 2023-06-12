@@ -87,7 +87,7 @@ S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 1
 ```
 ## Statistika upita 
   
-![image](../assets/Upit3-PosleOptimizacije-Stats.jpg)
+![image](../assets/Upit3-NakonOptimizacije-Stats.jpg)
 
   
 ## Zaključak 
