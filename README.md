@@ -25,7 +25,7 @@ kao i da se izmere i optimizuju performanse upita nad podacima.
 Prvi deo projekta predstavlja realizaciju upita nad inicijalnom šemom baze podataka, koja je preuzeta sa Kaggle-a.
 Nad ovolikom količinom podataka, očekivane su niske performanse, što rezultuje sporim vremenom odziva.
 
-Nakon izvršavanja inicijalnih upita, ideja je da se primene razni pristupi za optimizaciju upita kako bi se dobile znatno bolje performanse i bolje vreme odziva. 
+Nakon izvršavanja inicijalnih upita, ideja je da se analizom performansi uoče uska grla u strukturi baze podataka primene razni pristupi za optimizaciju upita kako bi se dobile znatno bolje performanse i bolje vreme odziva. 
 Postupci optimizacije koji su iskorišćeni su: Restruktuiranje inicijalne sheme baze podataka, kao i primena raznih tehnika indeksiranja.
 
 U procesu analize performansi upita nad inicijalnom shemom baze podataka, uočeno je da se podaci iz _play-by-play_ kolekcije, gotovo uvek koriste zajedno sa podacima iz 
