@@ -87,7 +87,7 @@ db.getCollection("play_by_play").aggregate(
 
 **Ukupno vreme trajanja upita:** 226 sekunde
 
-**Broj ulaznih dokumenata:** 13 miliona
+**Broj ulaznih dokumenata:** 356 hiljada
 
 Prilikom analiziranja explain naredbe, uočava se da je najviše vremena utrošeno na operaciu lookup koja zeli da pronadje sve akcije u kojima se pronasao igrac
 
