@@ -24,4 +24,4 @@ restruktuirati shemu baze podataka kako bi se poboljšale performanse.
 
 ## Prikaz ključnih delova restruktuirane sheme Baze podataka
 
-![RestructuredSchema](assets/RestucturedSchema.png)
+![RestructuredSchema](assets/RestructuredSchema.png)
