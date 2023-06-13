@@ -58,7 +58,7 @@ S obzirom da se u početnoj fazi upita vrši provera da li eventmsgtype iznosi 6
 ```
 ## Statistika upita 
   
-![image](../assets/Upit3-NakonOptimizacije-Stats.jpg)
+![image](../assets/q_avg_foul.png)
 
   
 ## Zaključak 
