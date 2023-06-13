@@ -1,4 +1,4 @@
-#Upit 3 - Koliko puta je svaka ekipa ispustila vodjstvo nakon 3/4 od 10 razlike, I u duelu izmedju koje dve fransize je doslo do najvise preokreta
+# Upit 3 - Koliko puta je svaka ekipa ispustila vodjstvo nakon 3/4 od 10 razlike, I u duelu izmedju koje dve fransize je doslo do najvise preokreta
 
 ## Proces optimizacije 
 
