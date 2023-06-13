@@ -49,11 +49,11 @@ U sklopu realizacije projekta, cilj je odgovoriti na narednih 10 pitanja:
 3. Pronaći top 10 igrača po broju utakmica na kojima su postigli barem 40 poena. Izlistati za svakog igrača te utakmice - [Initial](Initial-Schema/Milos/Query3/README.md) | [Optimized](Restructured-Schema/Milos/Query3/README.md)
 4. Za svaku ekipu, odrediti prosečnu gledanost po sezoni, kao i najposećeniju i najmanje posećenu utakmicu u sezoni - [Initial](Initial-Schema/Milos/Query4/README.md) | [Optimized](Restructured-Schema/Milos/Query4/README.md)
 5. Za svaku ekipu (i svaku sezonu) odrediti prosečan broj šutnutih i pogođenih trojki, kao i ukupno za svaku sezonu odrediti prosečan broj šutnutih i pogođenih trojki po utakmici - [Initial](Initial-Schema/Milos/Query5/README.md) | [Optimized](Restructured-Schema/Milos/Query5/README.md)
-6. Koliko puta je svaka ekipa ispustila vođstvo od 10 razlike ili više nakon treće četvrtine. U duelu između koje dve franšize je došlo do najviše preokreta. [Initial](Initial-Schema/Ilija/Query3/README.md)|[Optimized](Restructured-Schema/Ilija/Query3/README.md)
-7. Top 10 igrača po prosečnom broju faulova po utakmica. Prikazati i od kad do kad im je trajala karijera.  [Initial](Initial-Schema/Ilija/Query2/README.md)|[Optimized](Restructured-Schema/Ilija/Query2/README.md)
-8. Koliko pobeda po sezoni ostvari prvih 5 pikova na draftu u prve 3 sezone nakon što je izabran.  [Initial](Initial-Schema/Ilija/Query1/README.md)|[Optimized](Restructured-Schema/Ilija/Query1/README.md)
-9. Statistika Nikole Jokića, Odrediti procenat uspešnosti slobodnih bacanja i šuta za tri poena  [Initial](Initial-Schema/Ilija/Query4/README.md)|[Optimized](Restructured-Schema/Ilija/Query4/README.md)
-10. Odrediti top 10 igrača sa najviše dabl-dabl učinaka poena i assitencija.  [Initial](Initial-Schema/Ilija/Query5/README.md)|[Optimized](Restructured-Schema/Ilija/Query5/README.md)
+6. Koliko puta je svaka ekipa ispustila vođstvo od 10 razlike ili više nakon treće četvrtine. U duelu između koje dve franšize je došlo do najviše preokreta. [Initial](Initial-Schema/Ilija/Querry3/README.md)|[Optimized](Restructured-Schema/Ilija/Query3/README.md)
+7. Top 10 igrača po prosečnom broju faulova po utakmica. Prikazati i od kad do kad im je trajala karijera.  [Initial](Initial-Schema/Ilija/Query2/README.md)|[Optimized](Restructured-Schema/Ilija/Querry2/README.md)
+8. Koliko pobeda po sezoni ostvari prvih 5 pikova na draftu u prve 3 sezone nakon što je izabran.  [Initial](Initial-Schema/Ilija/Query1/README.md)|[Optimized](Restructured-Schema/Ilija/Querry1/README.md)
+9. Statistika Nikole Jokića, Odrediti procenat uspešnosti slobodnih bacanja i šuta za tri poena  [Initial](Initial-Schema/Ilija/Query4/README.md)|[Optimized](Restructured-Schema/Ilija/Querry4/README.md)
+10. Odrediti top 10 igrača sa najviše dabl-dabl učinaka poena i assitencija.  [Initial](Initial-Schema/Ilija/Query5/README.md)|[Optimized](Restructured-Schema/Ilija/Querry5/README.md)
 ### Implementacija
 
 Implementacija datih upita se nalazi u direktorijumu [Restructured-Schema](Restructured-Schema)
