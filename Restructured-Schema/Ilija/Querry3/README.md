@@ -231,7 +231,7 @@ db.getCollection("line_score").aggregate(
 ```
 
 ## Statistika upita 
-![image](../newquerries/q_bottler.png)
+![image](../new querries/q_bottler.png)
 
 ## Zaključak 
 
