@@ -109,7 +109,7 @@ db.getCollection("play_by_play").aggregate(
 ```
 
 ## Statistika upita 
-![Upit5-PreOptimizacije-Statistics](../assets/Query5-Refactored.png)
+![Upit5-PreOptimizacije-Statistics](../assets/Query5-Refactored.jpg)
 
 ## Zaključak 
 
