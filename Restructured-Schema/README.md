@@ -24,4 +24,4 @@ restruktuirati shemu baze podataka kako bi se poboljšale performanse.
 
 ## Prikaz ključnih delova restruktuirane sheme Baze podataka
 
-![RestructuredSchema](MongoDB-Projekat/Restrucutred-Schema/RestucturedSchema.png)
+![RestructuredSchema](assets/RestucturedSchema.png)
