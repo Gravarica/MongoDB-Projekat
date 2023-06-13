@@ -68,3 +68,7 @@ Implementacija datih upita se nalazi u direktorijumu [Restructured-Schema](Restr
 
 Neki od upita iz originalne prezentacije su promenjeni radi nedostatka kompleksnosti
 
+
+### Statistika upita 
+![Upiti](Restructured-Schema/assets/Upiti.jpg)
+
